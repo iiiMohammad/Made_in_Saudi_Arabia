@@ -15,7 +15,7 @@ module.exports = {
       const embed = new EmbedBuilder()
     .setTitle('قائمة الأوامر')
     .setDescription('هذه قائمة بجميع الأوامر')
-    .setFooter({ text: `Developer by egyxo` });
+    .setFooter({ text: `Developer by M76s9M` });
 
     commandsList.forEach(command => {
     embed.addFields({ name: `/${command.name}`, value: command.description });
